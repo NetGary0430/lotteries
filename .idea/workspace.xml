@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8dc0bf4-5b40-49b4-a7e1-1b4a7bce5c9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/LOTTERIES.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MegaMillions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloadANDread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scratch.py" afterDir="false" />
+    <list default="true" id="c8dc0bf4-5b40-49b4-a7e1-1b4a7bce5c9d" name="Changes" comment="refactor: clean up various code bits&#10;&#10;This cleans up multiple pdf's that were stored within the project.&#10;&#10;BREAKING CHANGE&#10;None">
+      <change beforePath="$PROJECT_DIR$/downloadANDread.py" beforeDir="false" afterPath="$PROJECT_DIR$/downloadANDread.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +58,19 @@
       <option name="presentableId" value="Default" />
       <updated>1747524039894</updated>
     </task>
+    <task id="LOCAL-00001" summary="refactor: clean up various code bits&#10;&#10;This cleans up multiple pdf's that were stored within the project.&#10;&#10;BREAKING CHANGE&#10;None">
+      <option name="closed" value="true" />
+      <created>1748212583578</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748212583578</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor: clean up various code bits&#10;&#10;This cleans up multiple pdf's that were stored within the project.&#10;&#10;BREAKING CHANGE&#10;None" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: clean up various code bits&#10;&#10;This cleans up multiple pdf's that were stored within the project.&#10;&#10;BREAKING CHANGE&#10;None" />
   </component>
 </project>

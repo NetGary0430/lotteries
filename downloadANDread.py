@@ -4,6 +4,8 @@ import os
 import time
 
 url = "https://www.arizonalottery.com/draw-games/mega-millions/"
+
+
 def download_and_read_pdf(url, output_path):
     """Downloads a PDF from a URL, tracks download completion, and then reads the PDF."""
 
@@ -44,7 +46,6 @@ def download_and_read_pdf(url, output_path):
                 #     page = pdf.pages[i]
                 #     text = page.extract_text()
                 #     print(f"Page {i+1}:\n{text}\n")
-
         except Exception as e:
             print(f"Error reading PDF: {e}")
             return
@@ -57,6 +58,6 @@ def download_and_read_pdf(url, output_path):
 
 
 # Example usage
-pdf_url = "https://files.arizonalottery.com/past-180-days/Past180Days_Mega_Millions.pdf" # Example URL
+pdf_url = "https://files.arizonalottery.com/past-180-days/Past180Days_Mega_Millions.pdf"
 output_file = ("megaMILL.pdf")
 download_and_read_pdf(pdf_url, output_file)
