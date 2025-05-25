@@ -1,15 +1,13 @@
 import pandas as pd
-import requests
 from pypdf import PdfReader
 import tabula
-import os
 from downloadANDread import download_and_read_pdf
 
 # Read PDF into list of DataFrame
 inputPDF = "megaMILL.pdf"
 
 pdf_url = "https://files.arizonalottery.com/past-180-days/Past180Days_Mega_Millions.pdf" # Example URL
-output_file = ("megaMILL.pdf")
+output_file = "megaMILL.pdf"
 download_and_read_pdf(pdf_url, output_file)
 
 pdf_path = inputPDF
