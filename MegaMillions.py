@@ -1,28 +1,11 @@
 import pandas as pd
 import requests
-from requests_html import HTMLSession
-from bs4 import BeautifulSoup
-import re
 from pypdf import PdfReader
 import tabula
 import os
 from downloadANDread import download_and_read_pdf
 
-
-# url = "https://files.arizonalottery.com/past-180-days/Past180Days_Mega_Millions.pdf"
-# response = requests.get(url)
-# htmlData = response.content
-# parsedData = BeautifulSoup(htmlData, "html.parser")
-
-# with open(parsedData, "a") as f:
-#   f.write("Now the file has more content!")
-#
-# #open and read the file after the appending:
-# with open(parsedData) as f:
-#   print(f.read())
-
-# # Read PDF into list of DataFrame
-# inputPDF = "D:\\MyCode\\python\\W2calculator\\Lotto_Lists\\megaMILL.pdf"
+# Read PDF into list of DataFrame
 inputPDF = "megaMILL.pdf"
 
 pdf_url = "https://files.arizonalottery.com/past-180-days/Past180Days_Mega_Millions.pdf" # Example URL
