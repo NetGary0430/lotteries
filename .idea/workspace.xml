@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8dc0bf4-5b40-49b4-a7e1-1b4a7bce5c9d" name="Changes" comment="refactor: clean up various code bits&#10;&#10;This cleans up multiple pdf's that were stored within the project.&#10;&#10;BREAKING CHANGE&#10;None" />
+    <list default="true" id="c8dc0bf4-5b40-49b4-a7e1-1b4a7bce5c9d" name="Changes" comment="refactor: deleted unused imports and removed redundant parenthesis&#10;&#10;This cleans up multiple pdf's that were stored within the project.&#10;&#10;BREAKING CHANGE&#10;None">
+      <change afterPath="$PROJECT_DIR$/Powerball.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MegaMillions.py" beforeDir="false" afterPath="$PROJECT_DIR$/MegaMillions.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,18 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "NetGary0430"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NetGary0430&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/NetGary0430/lotteries",
-    "accountId": "eb351adc-c0d3-4596-9282-9af370f52770"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NetGary0430/lotteries&quot;,
+    &quot;accountId&quot;: &quot;eb351adc-c0d3-4596-9282-9af370f52770&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -44,6 +48,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.MegaMillions.executor": "Run",
+    "Python.Powerball.executor": "Run",
     "Python.downloadANDread.executor": "Run",
     "Python.scratch.executor": "Run",
     "Python.scratch2.executor": "Run",
@@ -92,11 +97,28 @@
       <option name="project" value="LOCAL" />
       <updated>1748214157166</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor: clean up various code bits&#10;&#10;This cleans up multiple pdf's that were stored within the project.&#10;&#10;BREAKING CHANGE&#10;None">
+      <option name="closed" value="true" />
+      <created>1748214282392</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748214282392</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactor: deleted unused imports and removed redundant parenthesis&#10;&#10;This cleans up multiple pdf's that were stored within the project.&#10;&#10;BREAKING CHANGE&#10;None">
+      <option name="closed" value="true" />
+      <created>1748214608882</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748214608882</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor: clean up various code bits&#10;&#10;This cleans up multiple pdf's that were stored within the project.&#10;&#10;BREAKING CHANGE&#10;None" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: clean up various code bits&#10;&#10;This cleans up multiple pdf's that were stored within the project.&#10;&#10;BREAKING CHANGE&#10;None" />
+    <MESSAGE value="refactor: deleted unused imports and removed redundant parenthesis&#10;&#10;This cleans up multiple pdf's that were stored within the project.&#10;&#10;BREAKING CHANGE&#10;None" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: deleted unused imports and removed redundant parenthesis&#10;&#10;This cleans up multiple pdf's that were stored within the project.&#10;&#10;BREAKING CHANGE&#10;None" />
   </component>
 </project>
