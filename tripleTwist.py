@@ -6,11 +6,11 @@ from downloadANDread import download_and_read_pdf
 # Read PDF into list of DataFrame
 
 
-pdf_url = "https://files.arizonalottery.com/past-180-days/Past180Days_The_Pick.pdf" # Example URL
-output_file = "thePick.pdf"
+pdf_url = "https://files.arizonalottery.com/past-180-days/Past180Days_Triple_Twist.pdf" # Example URL
+output_file = "triple_Twist.pdf"
 download_and_read_pdf(pdf_url, output_file)
 
-inputPDF = "thePick.pdf"
+inputPDF = "triple_Twist.pdf"
 
 pdf_path = inputPDF
 pdf_file = open(pdf_path, 'rb')
@@ -24,5 +24,5 @@ for page_num in range(len(pdf_reader.pages)):
 df = pd.concat(tables, ignore_index=True)
 
 print(df)
-outputPDF = "D:\\MyCode\\python\\W2calculator\\lotto_results\\thePick.xlsx"
+outputPDF = "D:\\MyCode\\python\\W2calculator\\lotto_results\\tripleTwist.xlsx"
 df.to_excel(outputPDF)
