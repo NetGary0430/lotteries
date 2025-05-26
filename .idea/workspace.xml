@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8dc0bf4-5b40-49b4-a7e1-1b4a7bce5c9d" name="Changes" comment="refactor: deleted unused imports and removed redundant parenthesis&#10;&#10;This cleans up multiple pdf's that were stored within the project.&#10;&#10;BREAKING CHANGE&#10;None">
-      <change afterPath="$PROJECT_DIR$/Powerball.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MegaMillions.py" beforeDir="false" afterPath="$PROJECT_DIR$/MegaMillions.py" afterDir="false" />
-    </list>
+    <list default="true" id="c8dc0bf4-5b40-49b4-a7e1-1b4a7bce5c9d" name="Changes" comment="refactor: added powerball.py file&#10;&#10;This collects the powerball numbers.&#10;&#10;BREAKING CHANGE&#10;None" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,12 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748214608882</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactor: added powerball.py file&#10;&#10;This collects the powerball numbers.&#10;&#10;BREAKING CHANGE&#10;None">
+      <option name="closed" value="true" />
+      <created>1748274942534</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748274942534</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor: clean up various code bits&#10;&#10;This cleans up multiple pdf's that were stored within the project.&#10;&#10;BREAKING CHANGE&#10;None" />
     <MESSAGE value="refactor: deleted unused imports and removed redundant parenthesis&#10;&#10;This cleans up multiple pdf's that were stored within the project.&#10;&#10;BREAKING CHANGE&#10;None" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: deleted unused imports and removed redundant parenthesis&#10;&#10;This cleans up multiple pdf's that were stored within the project.&#10;&#10;BREAKING CHANGE&#10;None" />
+    <MESSAGE value="refactor: added powerball.py file&#10;&#10;This collects the powerball numbers.&#10;&#10;BREAKING CHANGE&#10;None" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: added powerball.py file&#10;&#10;This collects the powerball numbers.&#10;&#10;BREAKING CHANGE&#10;None" />
   </component>
 </project>
